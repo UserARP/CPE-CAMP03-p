@@ -1,0 +1,17 @@
+#define D2 4 // Map NodeMCU to ESP8266 pin
+#define button D2
+#define pressed LOW
+void setup()
+{
+Serial.begin(9600); pinMode(button,INPUT_PULLUP);
+}
+void loop()
+{
+bool ReadSwitch = digitalRead(button);
+if(ReadSwitch == pressed)
+{
+Serial.println("Pressed Switch.");
+delay(500);
+
+}
+}

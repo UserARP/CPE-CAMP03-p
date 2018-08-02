@@ -1,0 +1,33 @@
+#define D0 16
+#define LED D0
+int len
+void setup ()
+{
+    pinmode(LED,OUTPUT);
+}
+void loop()
+{
+    digitalWrite(LED,HIGH);
+    delay(500);
+    digitalWrite(LED,LOW);
+    delay(500);
+    digitalWrite(LED,HIGH);
+    delay(500);
+    digitalWrite(LED,LOW);
+    delay(500);digitalWrite(LED,HIGH);
+    delay(500);
+    digitalWrite(LED,LOW);
+    delay(500);
+    digitalWrite(LED,HIGH);
+    delay(250);
+    digitalWrite(LED,LOW);
+    delay(250);
+    digitalWrite(LED,HIGH);
+    delay(250);
+    digitalWrite(LED,LOW);
+    delay(250);
+    digitalWrite(LED,HIGH);
+    delay(250);
+    digitalWrite(LED,LOW);
+    delay(250);
+}
